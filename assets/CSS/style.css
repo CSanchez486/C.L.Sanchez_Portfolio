@@ -99,7 +99,7 @@ h1 span {
     grid-area: footer;
     background-color:hsl(230, 8%, 15%);
     padding-left: 125px;
-    padding-bottom 35px;
+    padding-bottom: 35px;
 }
 
 
@@ -235,4 +235,6 @@ p {
       padding: 0px;
   }
 
-
+#contact {
+    padding-left: 18px;
+}
