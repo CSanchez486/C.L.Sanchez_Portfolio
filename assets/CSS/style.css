@@ -15,6 +15,13 @@ body {
     background-color: #ffffff;
 }
 
+.column {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1
+}
+
 .container{
     display: flex;
 }
