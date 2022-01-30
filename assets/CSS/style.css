@@ -4,36 +4,33 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#494d5f;
-    /* display: grid;
-    grid-template-columns: auto auto auto auto; */
+    background-color: hsl(230, 8%, 15%);
 }
 a {
     text-decoration: none;
+    padding-: 35px;
 }
 
-  /* Image credit, Callum Wale: https://unsplash.com/photos/3pH7TxHU6gw */
 .hero {
     width: 100%;
-    background: white;
+    background: hsl(230, 8%, 15%);
     background-size: cover;
     background-repeat:no-repeat;
     background-position:relative;
     height: 100vh;
-    /* background-image: url(../images/abstract_metal.jpg); */
-
 }
 /* adds black background to nav-bar */
 nav {
     display: flex;
-    align-items: center;
+    text-align: right;
     background-color: hsl(230, 8%, 15%);
-    padding: 30px 100px;
     justify-content: space-between;
 }
 
 nav ul li{
     list-style: none;
     display: inline-block;
+    text-align: right;
 }
 
 /* styles links inside navbar*/
@@ -52,11 +49,12 @@ nav ul li{
 } */
 
 .career_title {
-    margin-right: 15px;
+    padding-left: 1230px;
+    /* margin-right: 205px; */
     font-family: fantasy;
-    font-size: 20px;
+    font-size: 25px;
     display: inline-block;
-    background: linear-gradient(100deg,#1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69% );
+    background: linear-gradient(100deg,#1c99fe 20.69%, #7644ff 70.19%,#fd4766 79.69% );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -68,14 +66,16 @@ h1 {
     line-height: 90px;
     text-transform: inherit;
     text-transform: uppercase;
+    text-align: right;
+    padding-right: 75px;
 }
 
 h1 span {
-    color: #997ee2;
+    text-align: right;
 }
 
 .btn {
-    color: #997ee2;
+    color: white;
     font-size: 12px;
     text-transform: uppercase;
     padding: 16px 40 px;
@@ -83,15 +83,24 @@ h1 span {
     display: inline-block;
     background: hotpink;
     background-size: 150% 100%;
-    border: 2px solid hotpink;
+    border: 10px solid hotpink;
     transition: all .4s ease-in-out;
 }
 
-.item1 { grid-area: header; }
+.item1 { 
+    grid-area: header;
+    padding-top: 35px;
+}
+
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
-.item5 { grid-area: footer; }
+.item5 { 
+    grid-area: footer;
+    background-color:hsl(230, 8%, 15%);
+    padding-left: 125px;
+    padding-bottom 35px;
+}
 
 
 .grid-container {
@@ -110,6 +119,7 @@ h1 span {
 .grid-container div {
   /* padding: 10px 0; */
   font-size: 30px;
+
 }
 
 .box {
@@ -155,8 +165,6 @@ a {
     font-size: 25px;
 }
 
-
-
 .front-position {
     background-color: whitesmoke;
     width: fit-content;
@@ -172,25 +180,15 @@ a {
 #headshot{
     width: 25%;
     height: 30%;
-    padding: 50px;
+    padding: 35px 15px 35px 15px;
 }
 
 h3 {
     font-size: 25px;
     text-decoration: underline;
-    text-align: left;
-    padding: 25px;
-}
-
-.left-side-nav {
-    margin-left: 30px;
-    text-align: right;
-    clear: both;
-    float:left;
-    width: 30%;
-    height: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #4c679F;
+    /* /* text-align: left; */
+    padding: 25px 25px 25px 75px; 
+    color: whitesmoke
 }
 
 img {
@@ -202,9 +200,9 @@ img {
 
 p {
     color: #4c679F;
-    font-size: 15px;
-    text-align: left;
-    padding-left: 35px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 25px 75px 35px 75px;
 }
 
 #quote {
@@ -220,10 +218,21 @@ p {
 
   i {
     align: center;
-    padding: 15px;
+
+    color: white;
+  }
+
+  .i:hover {
+    background-color: #4CAF50;
     color: white;
   }
 
   #space {
     color: hsl(230, 8%, 15%);
   }
+
+  br {
+      padding: 0px;
+  }
+
+
