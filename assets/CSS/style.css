@@ -62,7 +62,7 @@ nav ul li{
 }
 
 h1 {
-    color: #25252e;
+    color: hotpink;
     font-size: 40px;
     font-weight: bold;
     line-height: 90px;
@@ -93,6 +93,7 @@ h1 span {
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
 
+
 .grid-container {
   display: grid;
   grid-template:
@@ -101,14 +102,13 @@ h1 span {
     'menu main main main right right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color:hsl(230, 8%, 15%);
   padding: 10px;
+  display: flex;
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
+.grid-container div {
+  /* padding: 10px 0; */
   font-size: 30px;
 }
 
@@ -178,6 +178,8 @@ a {
 h3 {
     font-size: 25px;
     text-decoration: underline;
+    text-align: left;
+    padding: 25px;
 }
 
 .left-side-nav {
@@ -201,6 +203,8 @@ img {
 p {
     color: #4c679F;
     font-size: 15px;
+    text-align: left;
+    padding-left: 35px;
 }
 
 #quote {
@@ -208,3 +212,18 @@ p {
     font-style: italic;
     padding: 5px;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px 300px;
+  }
+
+  i {
+    align: center;
+    padding: 15px;
+    color: white;
+  }
+
+  #space {
+    color: hsl(230, 8%, 15%);
+  }
