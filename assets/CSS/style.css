@@ -11,7 +11,7 @@ a {
     text-decoration: none;
 }
 
-
+  /* Image credit, Callum Wale: https://unsplash.com/photos/3pH7TxHU6gw */
 .hero {
     width: 100%;
     background: white;
@@ -19,6 +19,8 @@ a {
     background-repeat:no-repeat;
     background-position:relative;
     height: 100vh;
+    /* background-image: url(../images/abstract_metal.jpg); */
+
 }
 /* adds black background to nav-bar */
 nav {
@@ -65,18 +67,24 @@ h1 {
     font-weight: bold;
     line-height: 90px;
     text-transform: inherit;
+    text-transform: uppercase;
 }
 
 h1 span {
     color: #997ee2;
 }
 
-/* Image credit, Callum Wale: https://unsplash.com/photos/3pH7TxHU6gw */
-
-/* background-image: url(../images/abstract_metal.jpg); */
-
-body {
-    background-color: #ffffff;
+.btn {
+    color: #997ee2;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 16px 40 px;
+    border-radius: 200px;
+    display: inline-block;
+    background: hotpink;
+    background-size: 150% 100%;
+    border: 2px solid hotpink;
+    transition: all .4s ease-in-out;
 }
 
 .box {
