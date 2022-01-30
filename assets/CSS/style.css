@@ -51,7 +51,6 @@ nav ul li{
 
 .career_title {
     margin-right: 15px;
-    float: right;
     font-family: fantasy;
     font-size: 20px;
     display: inline-block;
@@ -60,14 +59,22 @@ nav ul li{
     -webkit-text-fill-color: transparent;
 }
 
+h1 {
+    color: #25252e;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 90px;
+    text-transform: inherit;
+}
+
+h1 span {
+    color: #997ee2;
+}
+
 /* Image credit, Callum Wale: https://unsplash.com/photos/3pH7TxHU6gw */
 
 /* background-image: url(../images/abstract_metal.jpg); */
-/* h1 {
-    color: #482673;
-    font-size: 40px;
-    font-weight: bold;
-} */
+
 body {
     background-color: #ffffff;
 }
@@ -136,9 +143,10 @@ a {
 }
 
 h3 {
-    font-size: 35px;
-
+    font-size: 25px;
+    text-decoration: underline;
 }
+
 .left-side-nav {
     margin-left: 30px;
     text-align: right;
@@ -159,7 +167,7 @@ img {
 
 p {
     color: #4c679F;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #quote {
