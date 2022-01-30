@@ -45,11 +45,11 @@ nav ul li{
     font: 17px;
 }
 
-.intro {
+/* .intro {
     position: absolute;
     top: 35%;
     left: 8%
-}
+} */
 
 .career_title {
     margin-right: 15px;
@@ -97,6 +97,7 @@ h1 span {
   display: grid;
   grid-template:
     'header header header header header header'
+    'menu main main main right right'
     'menu main main main right right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
