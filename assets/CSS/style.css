@@ -11,10 +11,9 @@ a {
     text-decoration: none;
 }
 
-/* /* Image credit, Callum Wale: https://unsplash.com/photos/3pH7TxHU6gw */
+
 .hero {
     width: 100%;
-    /* background-image: url(../images/abstract_metal.jpg); */
     background: white;
     background-size: cover;
     background-repeat:no-repeat;
@@ -35,7 +34,7 @@ nav ul li{
     display: inline-block;
 }
 
-/* styles links inside anchor */
+/* styles links inside navbar*/
 .links {
     float: left;
     font-family: fantasy;
@@ -43,11 +42,32 @@ nav ul li{
     text-align: center;
     font: 17px;
 }
-h1 {
+
+.intro {
+    position: absolute;
+    top: 35%;
+    left: 8%
+}
+
+.career_title {
+    margin-right: 15px;
+    float: right;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline-block;
+    background: linear-gradient(100deg,#1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Image credit, Callum Wale: https://unsplash.com/photos/3pH7TxHU6gw */
+
+/* background-image: url(../images/abstract_metal.jpg); */
+/* h1 {
     color: #482673;
     font-size: 40px;
     font-weight: bold;
-}
+} */
 body {
     background-color: #ffffff;
 }
@@ -77,21 +97,10 @@ body {
 }
 
 
-.header {
-    height:20px;
-    color: #ddc5a7;
-    background-color: #24252a;
-    position: relative;
-}
 
 
 
-/* .header section {
-    margin-right: 15px;
-    float: right;
-    font-family: fantasy;
-    font-size: 20px;
-} */
+
 
 
 
