@@ -4,8 +4,45 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#494d5f;
+    /* display: grid;
+    grid-template-columns: auto auto auto auto; */
+}
+a {
+    text-decoration: none;
 }
 
+/* /* Image credit, Callum Wale: https://unsplash.com/photos/3pH7TxHU6gw */
+.hero {
+    width: 100%;
+    /* background-image: url(../images/abstract_metal.jpg); */
+    background: white;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:relative;
+    height: 100vh;
+}
+/* adds black background to nav-bar */
+nav {
+    display: flex;
+    align-items: center;
+    background-color: hsl(230, 8%, 15%);
+    padding: 30px 100px;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+/* styles links inside anchor */
+.links {
+    float: left;
+    font-family: fantasy;
+    color: #f2f2f2;
+    text-align: center;
+    font: 17px;
+}
 h1 {
     color: #482673;
     font-size: 40px;
@@ -42,9 +79,12 @@ body {
 
 .header {
     height:20px;
-    background: color #ddc5a7;
+    color: #ddc5a7;
+    background-color: #24252a;
     position: relative;
 }
+
+
 
 /* .header section {
     margin-right: 15px;
@@ -53,35 +93,32 @@ body {
     font-size: 20px;
 } */
 
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
 
-ul li{
+
+/* ul li{
     display:inline-block;
     float: right;
     margin-left: 20px;
-}
+} */
 a {
     text-decoration: none;
     margin-left: 25px;
     font-size: 25px;
 }
 
-/* /* Image credit, Callum Wale: https://unsplash.com/photos/3pH7TxHU6gw */
-.hero {
-    height: 550px;
-    width: 100%;
-    margin-bottom: 20px;
-    margin-top: 0px;
-    background-image: url(../images/abstract_metal.jpg);
-    background-size: 100%;
-    background-repeat:no-repeat;
-    background-position:center;
-    z-index: 1;
+
+
+.front-position {
+    background-color: whitesmoke;
+    width: fit-content;
+    font-size: 200%;
+    font-weight: 600;
+    position: absolute;
+    bottom: 20 px;
+    right: 40 px;
 }
+
+
 
 #headshot{
     width: 25%;
