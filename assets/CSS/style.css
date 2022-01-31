@@ -160,7 +160,6 @@ h1 span {
     margin-left: 20px;
 } */
 a {
-    text-decoration: none;
     margin-left: 25px;
     font-size: 25px;
 }
@@ -217,9 +216,9 @@ p {
   }
 
   i {
-    align: center;
-
     color: white;
+    width: 200px;
+    height: 356px;
   }
 
   .i:hover {
